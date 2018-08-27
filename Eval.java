@@ -19,7 +19,7 @@ public class Eval {
         String method = "main";
 
         String codes = "public static void main(String[]args){" +
-                "System.out.print(\"hello word\"); }";
+                "System.out.print(\"hello world\"); }";
 
         eval.run(method,codes);
         return null;
